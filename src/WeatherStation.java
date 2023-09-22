@@ -4,8 +4,8 @@ public class WeatherStation {
 
         CurrentConditionsDisplay currentConditionsDisplay =
                 new CurrentConditionsDisplay(weatherData);
-        Subject.HeatIndexDisplay heatIndexDisplay =
-                new Subject.HeatIndexDisplay(weatherData);
+        HeatIndexDisplay heatIndexDisplay =
+                new HeatIndexDisplay(weatherData);
 
         weatherData.setMeasurements(55, 34, 1010);
         weatherData.setMeasurements(77, 10, 1015);
